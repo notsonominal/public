@@ -19,7 +19,7 @@ esphome:
   project:
     name: esphome.bluetooth-proxy
     version: "1.0"
-  
+
 esp32:
   board: esp32doit-devkit-v1
   framework:
@@ -37,9 +37,9 @@ api:
 logger:
 ota:
 
-  dashboard_import:
-    package_import_url: github://notsonominal/public/m5stack-poesp32-nomac.yaml@main
-    import_full_config: true
+dashboard_import:
+  package_import_url: github://notsonominal/public/m5stack-poesp32-nomac.yaml@main
+  import_full_config: true
 
 esp32_ble_tracker:
   scan_parameters:
@@ -49,4 +49,3 @@ esp32_ble_tracker:
 
 bluetooth_proxy:
   active: true
-
