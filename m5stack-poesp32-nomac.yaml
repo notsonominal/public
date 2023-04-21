@@ -8,12 +8,12 @@
 # TX   ---> RX
 # 3V3  <--- 3v3
 
-substitutions:
-  name: m5stack-poesp32
+#substitutions:
+#  name: m5stack-poesp32
 #  friendly_name: Bluetooth Proxy
 
 esphome:
-  name: ${name}
+  name: m5stack-poesp32
 #  friendly_name: ${friendly_name}
   name_add_mac_suffix: false
 #  project:
