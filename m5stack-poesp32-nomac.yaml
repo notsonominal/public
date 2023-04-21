@@ -10,15 +10,15 @@
 
 substitutions:
   name: m5stack-poesp32
-  friendly_name: Bluetooth Proxy
+#  friendly_name: Bluetooth Proxy
 
 esphome:
   name: ${name}
-  friendly_name: ${friendly_name}
+#  friendly_name: ${friendly_name}
   name_add_mac_suffix: false
-  project:
-    name: esphome.bluetooth-proxy
-    version: "1.0"
+#  project:
+#    name: esphome.bluetooth-proxy
+#    version: "1.0"
 
 esp32:
   board: esp32doit-devkit-v1
