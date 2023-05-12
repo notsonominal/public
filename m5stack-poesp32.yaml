@@ -3,7 +3,7 @@
 # poesp32 - usb uart
 # GND  <--> GND
 # G0   <--- GND (or DTR)
-# EN   <--- N/A (or DSR)
+# EN   <--- N/A (or RTS)
 # RX   <--- TX
 # TX   ---> RX
 # 3V3  <--- 3v3
