@@ -38,7 +38,7 @@ logger:
 ota:
 
 dashboard_import:
-  package_import_url: github://notsonominal/public/m5stack-poesp32-nomac.yaml@main
+  package_import_url: github://notsonominal/public/m5stack-poesp32.yaml@main
   import_full_config: false
 
 esp32_ble_tracker:
