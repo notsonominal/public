@@ -15,7 +15,7 @@
 esphome:
   name: m5stack-poesp32
 #  friendly_name: ${friendly_name}
-  name_add_mac_suffix: false
+  name_add_mac_suffix: true
 #  project:
 #    name: esphome.bluetooth-proxy
 #    version: "1.0"
